@@ -1,10 +1,10 @@
 from requests import get
-from requests.exceptions import HTTPError
 from bs4 import BeautifulSoup
 from datetime import datetime, timedelta
 from collections import deque, defaultdict
-from time import sleep
-import numpy as np
+
+# from requests.exceptions import HTTPError
+# from time import sleep
 
 
 # 노래, 가수, 누적 청취자수, 누적 재생수 정보 찾는 함수
